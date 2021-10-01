@@ -1,0 +1,128 @@
+html, body, h1, p {
+    margin: 0; padding: 0;
+}
+
+#background-image {
+    background-image: url('Chopping.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#Nav {
+   position: absolute;
+   top: 40px;
+   width: 90%;
+   border-bottom: 1px solid white;
+   box-sizing: border-box;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#leftside {
+ color: white;
+ float:left;
+ margin-left: 50px;
+ font-size: 25px;
+}
+#rightside {
+    color: white;
+    float:right;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-top: 5px;
+    word-spacing: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-family: helvetica, Arial;
+}
+
+p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#Line1 {
+    height: 1px;
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+
+}
+#MiddleStuff {
+    text-align: center;
+}
+#imagesContainer {
+display: flex;
+}
+#imagesContainer {
+    background-color: black;
+}
+#images {
+    background-image: url('Bread.jpg');
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.Bread h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-left: 100px;
+   margin-top: 100px;
+}
+.Bread p {
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+#imagesContainer2 {
+    background-color: black;
+    display: flex;
+}
+#images2 {
+    background-image: url('Pineapple.jpg');
+    width: 200%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.Pineapple h1 {
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.Pineapple p {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+#imagesContainer3 {
+    background-color: black;
+    display: flex;
+}
+#images3 {
+    background-image: url('Pasta.jpg');
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.Pasta h1 {
+    margin-top: 75px;
+    margin-left: 150px;
+}
+.Pasta p {
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 35px;
+}
